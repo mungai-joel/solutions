@@ -222,9 +222,28 @@
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <h3 style="font-weight: normal;">Send a mail</h3>
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
-                            well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
-                            though the transition does limit overflow.
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputsubject" class="form-label">subject</label>
+                                <input type="text" class="form-control" id="inputSubject" placeholder="subject">
+                            </div>
+                            <div class="col-mb-6">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="col-mb-6">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  send copy to yourself (optional)
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
